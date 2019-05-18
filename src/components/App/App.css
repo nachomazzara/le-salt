@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App .wrapper {
+  margin: 40px 20px;
+}
+
+button.generate {
+  background: none;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px 20px;
+  border: 2px solid #c9c9c9;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+.App .footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  background: #1f1f1f;
+  height: 60px;
+}
+
+.App  .footer a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  margin-top: 16px;
+  display: block;
+  margin-right: 20px;
+}
+
+@media(max-width: 520px) {
+  .hash {
+    font-size: 16px;
+  }
+}
+
