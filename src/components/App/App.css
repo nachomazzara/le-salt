@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 .App-header {
@@ -19,7 +19,7 @@
 }
 
 .App .wrapper {
-  margin: 40px 20px;
+  margin-top: 40px;
 }
 
 button.generate {
@@ -54,8 +54,8 @@ button.generate {
 }
 
 @media(max-width: 520px) {
-  .hash {
-    font-size: 16px;
+  .App .footer {
+    display: none;
   }
 }
 
