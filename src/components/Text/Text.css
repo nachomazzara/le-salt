@@ -23,7 +23,7 @@ textarea{
   cursor: pointer;
   outline: none;
   float: none;
-  margin-top: -10px;
+  margin-top: -20px;
   margin-left: 10px;
   padding: 0;
 }
@@ -35,7 +35,7 @@ textarea{
   }
 
   .copy-button {
-    margin-top: -15px;
+    margin-top: -25px;
   }
 }
 
