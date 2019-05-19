@@ -18,6 +18,7 @@ textarea{
 }
 
 .copy-button {
+  background: transparent;
   border: none;
   font-style: italic;
   cursor: pointer;
